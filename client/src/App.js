@@ -39,7 +39,6 @@ export default function App() {
           ]
         }
       />
-      <Link to="/">Home</Link>
       <Switch>
         <Route path="/movies/:movieId">
           <Movie />
